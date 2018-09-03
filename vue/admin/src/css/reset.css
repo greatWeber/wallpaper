@@ -1,0 +1,61 @@
+body,p,h1,h2,h3,h4,h5,h6,img,ul,li {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    display: block;
+    height: 0;
+    clear: both;
+    content: '';
+    visibility: visible;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #52b983;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #eee;
+}

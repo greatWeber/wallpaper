@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/**
+ * 通用头部
+ * @authors 我贼帅
+ * @date    2018-08-04 
+ */
+
+@import '_common.scss';
+
+.header {
+    width: 100%;
+    height: rem(100px);
+    line-height: rem(100px);
+    border-bottom: 2px solid $theme;
+    box-sizing: border-box;
+    padding: 0 rem(100px);
+    font-size: rem(16px);
+    color: $theme;
+
+    .header-ul {
+        width: 50%;
+
+    }
+
+    .header-li {
+        flex: 1;
+        cursor: pointer;
+        text-align: center;
+
+        a {
+            color: $theme;
+        }
+        
+    }
+
+    .header-act {
+        color: $act !important;
+    }
+
+
+    .userInfo {
+
+        .name {
+            color: blue;
+            padding-right: rem(10px);
+        }
+
+        .logOut {
+            color: red;
+            cursor: pointer;
+        }
+    }
+
+}

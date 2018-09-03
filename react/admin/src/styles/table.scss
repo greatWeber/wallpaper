@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/**
+ * 表格样式
+ * @authors 我贼帅
+ * @date    2018-08-16
+ */
+
+@import '_common.scss';
+
+.table {
+    width: 100%;
+    margin: rem(50px) auto;
+    font-size: rem(16px);
+    color: $theme;
+    text-align: center;
+
+    thead {
+        width: 100%;
+        height: rem(50px);
+        line-height: rem(50px);
+        font-weight: bold;
+        
+        th {
+            border-top: 2px solid $theme;
+            border-bottom: 2px solid $theme;
+        }
+    }
+
+    tr {
+        height: rem(50px);
+        // line-height: rem(50px);
+        
+    }
+
+    td {
+        border-bottom: 1px solid $theme;
+    }
+
+    .btn {
+        padding: rem(5px) rem(10px);
+        color: #fff;
+        border-radius: 3px;
+        margin: 0 rem(10px);
+    }
+
+    .edit {
+        background: green;
+    }
+
+    .del {
+        background: red;
+    }
+}
